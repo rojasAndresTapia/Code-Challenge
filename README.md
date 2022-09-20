@@ -22,21 +22,35 @@ The challenge is to create a web application that displays a "two-step" form. In
 
 In the "first step" the user is shown a form with different years, from which he/she must choose an option and press the "Next" button to continue.
 
-<img src="src/images/Year-screen.png" width="70%">
+<img src="src/images/Year-screen.png" width="50%">
 
  In the "second step" he/she is shown another form with different sentences, from which he/she must choose an option and, again, click the "Next" button to continue. 
+ 
+ <img src="src/images/Answer-screen.png" width="50%">
 
 In both cases, the options are shown to the user with radio type inputs; the value checked by the user is stored in the local storage.
 
 In the next screen, a code is displayed. The code is generated from the sum of the last two digits of the chosen year and the last 4 letters of the chosen phrase, eliminating the vowel "a" and spaces (if any). A button is also added to copy the generated code to the clipboard.
 
+<img src="src/images/Code-screen.png" width="50%">
+
 In this screen a counter is created that gives 20 minutes of time before the code expires. Once this time has elapsed, a message appears saying that the code has expired and a link to restart the whole process.
+
+<img src="src/images/Expired-screen.png" width="50%">
 
 The project has different views depending on the device:
 
 - mobile
+
+<img src="src/images/Year-screen.png" width="50%">
+
 - tablet
+
+<img src="src/images/Tablet.png" width="50%">
+
 - web
+
+<img src="src/images/Web.png" width="50%">
 
 Remarks:
 
