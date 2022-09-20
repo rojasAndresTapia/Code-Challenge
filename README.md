@@ -50,7 +50,7 @@ The project has different views depending on the device:
 
 - web
 
-<img src="src/images/Web.png" width="50%">
+<img src="src/images/Web-screen.png" width="50%">
 
 Remarks:
 
