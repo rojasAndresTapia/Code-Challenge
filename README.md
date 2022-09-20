@@ -46,11 +46,11 @@ The project has different views depending on the device:
 
 - tablet
 
-<img src="src/images/Tablet-screen.png" width="50%">
+<img src="src/images/Tablet.png" width="50%">
 
 - web
 
-<img src="src/images/Web-screen.png" width="50%">
+<img src="src/images/Web.png" width="50%">
 
 Remarks:
 
