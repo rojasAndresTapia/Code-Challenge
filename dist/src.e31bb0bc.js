@@ -1202,7 +1202,7 @@ module.exports = function GetIntrinsic(name, allowMissing) {
 		throw new $TypeError('"allowMissing" argument must be a boolean');
 	}
 
-	if ($exec(/^%?[^%]*%?$/g, name) === null) {
+	if ($exec(/^%?[^%]*%?$/, name) === null) {
 		throw new $SyntaxError('`%` may not be present anywhere but at the beginning and end of the intrinsic name');
 	}
 	var parts = stringToPath(name);
@@ -2928,7 +2928,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55240" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55760" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
