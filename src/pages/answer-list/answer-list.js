@@ -1,7 +1,6 @@
 // *************** GET CODE **********************
 
-const button = document.getElementById('answer-button');
-const radiosCheckValue = document.querySelectorAll('.radio-value');
+const radiosCheckValue = document.querySelectorAll('.main__container--radiocheck__value');
 
 const saveUserChoice = (element) => {
   localStorage.setItem('userChoise',element);
