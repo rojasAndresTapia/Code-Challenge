@@ -24,7 +24,7 @@ body {
     padding: 300px;
   }
 }
-@media all and (min-width: 768px) {
+@media all and (max-width: 1024px) {
   body {
     height: 100vh;
   }

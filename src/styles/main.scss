@@ -36,12 +36,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 
+
   @media all and (min-width: $web) {
     padding: 300px;
 
   }
 
-  @media all and (min-width: $tablet) {
+  @media all and (max-width: $web) {
     height: 100vh;
   }
 
