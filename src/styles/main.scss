@@ -31,7 +31,6 @@ body {
   position: relative;
   margin: 0;
   box-sizing: border-box;
-  height: 100vh;
   padding: 50px 75px 0px;
   background-image: url('./../core/content/img/background-siroko.jpg');
   background-size: cover;
@@ -39,6 +38,11 @@ body {
 
   @media all and (min-width: $web) {
     padding: 300px;
+
+  }
+
+  @media all and (min-width: $tablet) {
+    height: 100vh;
   }
 
   p {
