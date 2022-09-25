@@ -1,10 +1,14 @@
 const path = require('path');
 
+const rootPath = path.resolve(__dirname, '../../');
+
+const resolveFromRootPath = (...args) => path.join(rootPath, ...args);
+
 module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: resolveFromRootPath('dist')
   },
   rules: [
     {
